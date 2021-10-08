@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#carouselExampleDark{
+    background-color: black;
+    color: #000;
+    border: 5px solid white;
+}
+
+#carouselExampleDark p, h3{
+    color: white;
+}
+
+@media only screen and (min-width: 1200px){
+    .container {
+        display: flex; 
+        justify-content:space-between;
+        flex-direction: row;
+        text-align: center;
+    }    
+
+    .card{
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+    .container{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+
+    
+
+#enviar{
+    position: absolute;
+    right: 15px;
+}
+
+#recuadro{
+    border: 5px solid #0120D5;
+}
+
+footer{
+    background-color: 	#007bff;
+    border: 1px solid 	#007bff;
+    color: white;
+    text-align: center;
+}
+
+#hori{
+    flex-direction: row;
+}
